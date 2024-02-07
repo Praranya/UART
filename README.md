@@ -8,4 +8,10 @@ When the receiving UART detects a start bit, it starts to read the incoming bits
 
 ### Full Duplex UART
 - Implemented a full duplex uart body from the two top modules [Transmitter.v](https://github.com/Praranya/Uart/blob/main/UART_Body/Transmitter.v) and [Receiver.v](https://github.com/Praranya/Uart/blob/main/UART_Body/Receiver.v).
-- 
+- Design module [topmodule.v](https://github.com/Praranya/Uart/blob/main/UART_Body/topmodule.v).
+- Test bench [topmodule_test.v](https://github.com/Praranya/Uart/blob/main/UART_Body/topmodule_test.v).
+- wave form:<br> ![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Uart_wave.png)
+- Synthesised block level diagram:<br> ![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Synthesised%20block%20level%20diagram.png)
+
+
+### Transmitter
