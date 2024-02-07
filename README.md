@@ -11,7 +11,17 @@ When the receiving UART detects a start bit, it starts to read the incoming bits
 - Design module [topmodule.v](https://github.com/Praranya/Uart/blob/main/UART_Body/topmodule.v).
 - Test bench [topmodule_test.v](https://github.com/Praranya/Uart/blob/main/UART_Body/topmodule_test.v).
 - wave form:<br> ![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Uart_wave.png)
-- Synthesised block level diagram:<br> ![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Synthesised%20block%20level%20diagram.png)
+
+  
+- Synthesised block level diagram:<br>![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Synthesised%20block%20level%20diagram.png)
 
 
-### Transmitter
+### UART-Transmitter
+- UART-Trasmitter architecture: <p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Tx_block.png)</p>
+- Transmitter FSM:<p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Tx_fsm.png)</p>
+- Transmitter Block:<p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Transmitter%20Block.png)</p>
+
+### UART-Receiver
+- UART-Receiver architecture:<p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Rx_block.png)</p>
+- Receiver FSM:<p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Rx_fsm.png)</p>
+- Receiver Block:<p align="center">![alt text](https://github.com/Praranya/Uart/blob/main/UART_pics/Receiver%20Block.png)</p>
