@@ -7,3 +7,5 @@ UART stands for Universal Asynchronous Receiver/Transmitter. It’s not a commun
 When the receiving UART detects a start bit, it starts to read the incoming bits at a specific frequency known as the baud rate. Baud rate is a measure of the speed of data transfer, expressed in bits per second (bps). Both UARTs must operate at about the same baud rate.
 
 ### Full Duplex UART
+- Implemented a full duplex uart body from the two top modules [Transmitter.v](https://github.com/Praranya/Uart/blob/main/UART_Body/Transmitter.v) and [Receiver.v](https://github.com/Praranya/Uart/blob/main/UART_Body/Receiver.v).
+- 
